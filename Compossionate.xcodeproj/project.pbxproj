@@ -13,6 +13,10 @@
 		392BC59E2858835400A7BA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392BC59C2858835400A7BA0E /* Main.storyboard */; };
 		392BC5A02858835400A7BA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392BC59F2858835400A7BA0E /* Assets.xcassets */; };
 		392BC5A32858835400A7BA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392BC5A12858835400A7BA0E /* LaunchScreen.storyboard */; };
+		398C414D286303C30053AFA5 /* CompostInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C414C286303C30053AFA5 /* CompostInfoViewController.swift */; };
+		398C414F2863041F0053AFA5 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C414E2863041F0053AFA5 /* FAQViewController.swift */; };
+		398DBB1728606881002CFE70 /* GuiMod1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */; };
+		398DBB19286068A5002CFE70 /* GuiMod4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		392BC59F2858835400A7BA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		392BC5A22858835400A7BA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		392BC5A42858835400A7BA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398C414C286303C30053AFA5 /* CompostInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostInfoViewController.swift; sourceTree = "<group>"; };
+		398C414E2863041F0053AFA5 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod1ViewController.swift; sourceTree = "<group>"; };
+		398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				392BC5962858835400A7BA0E /* AppDelegate.swift */,
 				392BC5982858835400A7BA0E /* SceneDelegate.swift */,
 				392BC59A2858835400A7BA0E /* ViewController.swift */,
+				398C414C286303C30053AFA5 /* CompostInfoViewController.swift */,
+				398C414E2863041F0053AFA5 /* FAQViewController.swift */,
+				398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */,
+				398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */,
 				392BC59C2858835400A7BA0E /* Main.storyboard */,
 				392BC59F2858835400A7BA0E /* Assets.xcassets */,
 				392BC5A12858835400A7BA0E /* LaunchScreen.storyboard */,
@@ -141,6 +153,10 @@
 				392BC59B2858835400A7BA0E /* ViewController.swift in Sources */,
 				392BC5972858835400A7BA0E /* AppDelegate.swift in Sources */,
 				392BC5992858835400A7BA0E /* SceneDelegate.swift in Sources */,
+				398DBB19286068A5002CFE70 /* GuiMod4ViewController.swift in Sources */,
+				398C414F2863041F0053AFA5 /* FAQViewController.swift in Sources */,
+				398C414D286303C30053AFA5 /* CompostInfoViewController.swift in Sources */,
+				398DBB1728606881002CFE70 /* GuiMod1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
