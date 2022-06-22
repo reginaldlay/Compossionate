@@ -17,6 +17,7 @@
 		398C414F2863041F0053AFA5 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C414E2863041F0053AFA5 /* FAQViewController.swift */; };
 		398DBB1728606881002CFE70 /* GuiMod1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */; };
 		398DBB19286068A5002CFE70 /* GuiMod4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */; };
+		5975C2A22859ACC500246860 /* HowToController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975C2A12859ACC500246860 /* HowToController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		398C414E2863041F0053AFA5 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod1ViewController.swift; sourceTree = "<group>"; };
 		398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod4ViewController.swift; sourceTree = "<group>"; };
+		5975C2A12859ACC500246860 /* HowToController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */,
 				392BC59C2858835400A7BA0E /* Main.storyboard */,
 				392BC59F2858835400A7BA0E /* Assets.xcassets */,
+				5975C2A12859ACC500246860 /* HowToController.swift */,
 				392BC5A12858835400A7BA0E /* LaunchScreen.storyboard */,
 				392BC5A42858835400A7BA0E /* Info.plist */,
 			);
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				392BC59B2858835400A7BA0E /* ViewController.swift in Sources */,
+				5975C2A22859ACC500246860 /* HowToController.swift in Sources */,
 				392BC5972858835400A7BA0E /* AppDelegate.swift in Sources */,
 				392BC5992858835400A7BA0E /* SceneDelegate.swift in Sources */,
 				398DBB19286068A5002CFE70 /* GuiMod4ViewController.swift in Sources */,
@@ -305,7 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W6UMVQ97QR;
+				DEVELOPMENT_TEAM = B3T256X88A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Compossionate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,7 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W6UMVQ97QR;
+				DEVELOPMENT_TEAM = B3T256X88A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Compossionate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
