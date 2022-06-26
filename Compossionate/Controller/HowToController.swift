@@ -11,22 +11,22 @@ class HowToController: UIViewController {
 
     //Outlet List
     @IBOutlet weak var ToolsImage: UIImageView!
-    @IBOutlet weak var materialG: UIImageView!
-    @IBOutlet weak var materialB: UIImageView!
     @IBOutlet weak var PrepareImage: UIImageView!
     @IBOutlet weak var PlaceImage: UIImageView!
     @IBOutlet weak var CheckImage: UIImageView!
+    
+    @IBOutlet weak var GreenInfo: UIButton!
+    @IBOutlet weak var BrownInfo: UIButton!
     
     //Did load
     override func viewDidLoad() {
         super.viewDidLoad()
         // Image tools
         ToolsImage.image = UIImage(named: "ChooseM.png")
-        materialB.image = UIImage(named: "brown.png")
-        materialG.image = UIImage(named:"green.png")
         PrepareImage.image = UIImage(named: "PrepareM.png")
         PlaceImage.image = UIImage(named: "PlaceM.png")
         CheckImage.image = UIImage(named: "checkS.png")
+        
         // Do any additional setup after loading the view.
     }
     
@@ -42,3 +42,4 @@ class HowToController: UIViewController {
     */
 
 }
+

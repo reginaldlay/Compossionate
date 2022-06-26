@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "GreenCard.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "brown.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
