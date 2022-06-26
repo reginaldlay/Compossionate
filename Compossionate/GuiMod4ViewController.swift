@@ -27,19 +27,19 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.layer.cornerRadius = condition2Btn.frame.height / 2
         condition3Btn.layer.cornerRadius = condition3Btn.frame.height / 2
         
-        
-        
         condition1Btn.isHidden = true
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
         
-        
     }
     
     @IBAction func selectConditionPressed(_ sender: Any) {
-        condition1Btn.isHidden = false
-        condition2Btn.isHidden = false
-        condition3Btn.isHidden = false
+        UIView.animate(withDuration: 0.7) { [self] in
+            condition1Btn.isHidden = false
+            condition2Btn.isHidden = false
+            condition3Btn.isHidden = false
+            
+        }
     }
     
     @IBAction func condition1Pressed(_ sender: Any) {
