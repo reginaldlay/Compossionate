@@ -25,6 +25,7 @@
 		39D6C67C2869888E00E1749F /* BatchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6C67A2869888E00E1749F /* BatchCollectionViewCell.swift */; };
 		39D6C67D2869888E00E1749F /* BatchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D6C67B2869888E00E1749F /* BatchCollectionViewCell.xib */; };
 		39D6C67F2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6C67E2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift */; };
+		39C968D7286456EE00FF4FB7 /* Compost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C968D5286456EE00FF4FB7 /* Compost.storyboard */; };
 		5975C2A22859ACC500246860 /* HowToController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975C2A12859ACC500246860 /* HowToController.swift */; };
 		59EEBA5D286456D3004DEE8D /* HowTo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EEBA5B286456D3004DEE8D /* HowTo.storyboard */; };
 		59EEBA602865A86E004DEE8D /* CommunityPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EEBA5E2865A86E004DEE8D /* CommunityPage.storyboard */; };
@@ -55,6 +56,7 @@
 		39D6C67A2869888E00E1749F /* BatchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchCollectionViewCell.swift; sourceTree = "<group>"; };
 		39D6C67B2869888E00E1749F /* BatchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatchCollectionViewCell.xib; sourceTree = "<group>"; };
 		39D6C67E2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpGuiMod1ViewController.swift; sourceTree = "<group>"; };
+		39C968D6286456EE00FF4FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Compossionate/Base.lproj/Compost.storyboard; sourceTree = "<group>"; };
 		5975C2A12859ACC500246860 /* HowToController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToController.swift; sourceTree = "<group>"; };
 		59EEBA5C286456D3004DEE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Compossionate/Base.lproj/HowTo.storyboard; sourceTree = "<group>"; };
 		59EEBA5F2865A86E004DEE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Compossionate/Base.lproj/CommunityPage.storyboard; sourceTree = "<group>"; };
@@ -292,6 +294,14 @@
 				59EEBA5F2865A86E004DEE8D /* Base */,
 			);
 			name = CommunityPage.storyboard;
+            sourceTree = "<group>";
+        };
+		39C968D5286456EE00FF4FB7 /* Compost.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C968D6286456EE00FF4FB7 /* Base */,
+			);
+			name = Compost.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

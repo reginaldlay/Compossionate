@@ -30,7 +30,6 @@ class GuiMod4ViewController: UIViewController {
         condition1Btn.isHidden = true
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
-        
     }
     
     @IBAction func backPressed(_ sender: Any){
@@ -38,9 +37,12 @@ class GuiMod4ViewController: UIViewController {
     }
     
     @IBAction func selectConditionPressed(_ sender: Any) {
-        condition1Btn.isHidden = false
-        condition2Btn.isHidden = false
-        condition3Btn.isHidden = false
+        UIView.animate(withDuration: 0.7) { [self] in
+            condition1Btn.isHidden = false
+            condition2Btn.isHidden = false
+            condition3Btn.isHidden = false
+            
+        }
     }
     
     @IBAction func condition1Pressed(_ sender: Any) {

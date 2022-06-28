@@ -39,6 +39,7 @@ class FAQViewController: UIViewController {
         
     }
     
+
     @IBAction func backPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -59,7 +60,7 @@ class FAQViewController: UIViewController {
             question1Status = 0
         }
     }
-    
+
     @IBAction func question2Pressed(_ sender: Any) {
         if question2Status == 0 { //masih ketutup, mau dibuka
             question2Lbl.setImage(UIImage(systemName: "chevron.down"), for: .normal)
