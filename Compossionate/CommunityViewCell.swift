@@ -17,7 +17,7 @@ class CommunityViewCell: UITableViewCell {
     func setCommData(communityData : CommunityData){
         cellName.text = communityData.name
         cellDetail.text = communityData.avail
-        cellImage.image = communityData.img
+  //      cellImage.image = communityData.img
     }
 //    override func awakeFromNib() {
 //        super.awakeFromNib()

@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
 class CommunityDetailController: UIViewController {
 
@@ -13,7 +15,7 @@ class CommunityDetailController: UIViewController {
     @IBOutlet weak var detailName: UILabel!
     @IBOutlet weak var detailAddress: UILabel!
     @IBOutlet weak var detailAvail: UILabel!
-    
+    @IBOutlet private var mapView: MKMapView!
     
     @IBAction func dismissModal(_ sender: Any) {
         self.dismiss(animated: true)
@@ -21,11 +23,23 @@ class CommunityDetailController: UIViewController {
     var community : CommunityData?
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        let initialLocation = CLLocation(latitude: -6.412707, longitude: 111.719122)
+        
+        // Show artwork on map
+        let artwork = Artwork(
+    
+          coordinate: CLLocationCoordinate2D(latitude: -8.409518, longitude: 115.188919))
+        mapView.addAnnotation(artwork)
+
+        
         detailName.text = community?.name
-        detailMap.image = community?.mapImg
+  //      detailMap.image = community?.mapImg
         detailAvail.text = community?.avail
         detailAddress.text = community?.address
         

@@ -6,21 +6,33 @@
 //
 
 import UIKit
+import CoreLocation
+
+
 
 class CommunityController: UIViewController {
 
+ 
+   
+
+
     var CommunityArray = [CommunityData]()
     
+    
+    
     func createArray(){
-        let comm1 = CommunityData(name: "Greenaration", avail: "Sell, Home Pickup, Share", address: "Jl. Kolonel Masturi No.107 KM.8 40511", img: UIImage(named: "commPCimage.png")!, mapImg: UIImage(named: "map.png")!)
+        let comm1 = CommunityData(img: UIImage(named: "paguyuban.png")!, name: "Maggot BSF Cibubur", avail: "Sell, Home Pickup, Share", address: "Jl. Kolonel Masturi No.107 KM.8 40511",coordinate: CLLocationCoordinate2D(latitude: -8.409518, longitude: 115.188919))
         CommunityArray.append(comm1)
         
-        let comm2 = CommunityData(name: "Paguyuban Kompos", avail: "Home Pickup, Share",address: "Jl. Kolonel Masturi No.107 KM.8 40511", img: UIImage(named: "commPCimage.png")!, mapImg: UIImage(named: "map.png")!)
+        let comm2 = CommunityData(img: UIImage(named: "akademikompos.png")!,name: "Akademi Kompos", avail: "Home Pickup, Share",address: "Jl. Griya No.1, RT 008 RW 008, Petukangan Selatan, Kec. Pesanggrahan, Kota Jakarta Selatan", coordinate: CLLocationCoordinate2D(latitude: -6.2441197537362285, longitude:106.74723353832297))
         CommunityArray.append(comm2)
         
-        let comm3 = CommunityData(name: "Koperasi Cipageran", avail: "Share", address: "Jl. Kolonel Masturi No.107 KM.8 40511",img: UIImage(named: "commPCimage.png")!, mapImg: UIImage(named: "map.png")!)
+        let comm3 = CommunityData(img: UIImage(named: "akademikompos.png")!,name: "Koperasi Cipageran", avail: "Share", address: "Jl. Kolonel Masturi No.107 KM.8 40511",coordinate: CLLocationCoordinate2D(latitude: -8.409518, longitude: 115.188919))
         CommunityArray.append(comm3)
     }
+    
+
+    
     
     @IBOutlet weak var communityTable: UITableView!
     

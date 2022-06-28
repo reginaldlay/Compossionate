@@ -32,6 +32,7 @@
 		59EEBA642865B0DB004DEE8D /* CommunityViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEBA632865B0DB004DEE8D /* CommunityViewCell.swift */; };
 		59EEBA662865B955004DEE8D /* CommunityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEBA652865B955004DEE8D /* CommunityModel.swift */; };
 		59EEBA692866D59E004DEE8D /* CommunityDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEBA682866D59E004DEE8D /* CommunityDetailController.swift */; };
+		683EC7E22869B5C200219288 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683EC7E12869B5C200219288 /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		59EEBA632865B0DB004DEE8D /* CommunityViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewCell.swift; sourceTree = "<group>"; };
 		59EEBA652865B955004DEE8D /* CommunityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityModel.swift; sourceTree = "<group>"; };
 		59EEBA682866D59E004DEE8D /* CommunityDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDetailController.swift; sourceTree = "<group>"; };
+		683EC7E12869B5C200219288 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				392BC59C2858835400A7BA0E /* Main.storyboard */,
 				59EEBA5E2865A86E004DEE8D /* CommunityPage.storyboard */,
 				59EEBA682866D59E004DEE8D /* CommunityDetailController.swift */,
+				683EC7E12869B5C200219288 /* Annotation.swift */,
 				59EEBA652865B955004DEE8D /* CommunityModel.swift */,
 				59EEBA672866BC2B004DEE8D /* Controller */,
 				392BC59F2858835400A7BA0E /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 				3940AE69286B011900277BE5 /* CompostInfoViewController.swift in Sources */,
 				59EEBA692866D59E004DEE8D /* CommunityDetailController.swift in Sources */,
 				59EEBA662865B955004DEE8D /* CommunityModel.swift in Sources */,
+				683EC7E22869B5C200219288 /* Annotation.swift in Sources */,
 				392BC5972858835400A7BA0E /* AppDelegate.swift in Sources */,
 				59EEBA622865A991004DEE8D /* CommunityController.swift in Sources */,
 				399E870E286AE2C1007FC327 /* AskQuestionViewController.swift in Sources */,

@@ -7,19 +7,23 @@
 
 import Foundation
 import UIKit
+import CoreLocation
+import MapKit
 
 class CommunityData{
     var name: String?
     var avail: String?
     var address: String?
     let img: UIImage
-    var mapImg : UIImage
-
-    init(name:String,avail:String,address:String,img:UIImage,mapImg:UIImage){
+    //var mapImg : UIImage
+    var coordinate: CLLocationCoordinate2D
+    
+    init(img: UIImage, name:String,avail:String,address:String,coordinate:CLLocationCoordinate2D){
         self.name = name
         self.avail = avail
         self.address = address
-        self.img = img
-        self.mapImg = mapImg
+       self.img = img
+     //   self.mapImg = mapImg
+        self.coordinate = coordinate
     }
 }
