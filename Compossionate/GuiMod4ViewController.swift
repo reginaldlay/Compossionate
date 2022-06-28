@@ -36,13 +36,14 @@ class GuiMod4ViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func backPressed(_ sender: Any){
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func selectConditionPressed(_ sender: Any) {
-        UIView.animate(withDuration: 0.7) { [self] in
-            condition1Btn.isHidden = false
-            condition2Btn.isHidden = false
-            condition3Btn.isHidden = false
-            
-        }
+        condition1Btn.isHidden = false
+        condition2Btn.isHidden = false
+        condition3Btn.isHidden = false
     }
     
     @IBAction func condition1Pressed(_ sender: Any) {

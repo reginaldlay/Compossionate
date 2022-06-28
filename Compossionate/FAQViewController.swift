@@ -38,8 +38,6 @@ class FAQViewController: UIViewController {
         faqDesc4.isHidden = true
         
     }
-    
-
     @IBAction func backPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
