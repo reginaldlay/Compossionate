@@ -9,21 +9,48 @@ import UIKit
 
 class CompostInfoViewController: UIViewController {
 
+    @IBOutlet weak var weeklyImage: UIImageView!
+    @IBOutlet weak var weeklyDescription: UILabel!
+    
+    @IBOutlet weak var dayLabel: UILabel!
+    
+    @IBOutlet weak var checklistBox1: UIButton!
+    @IBOutlet weak var checklistBox2: UIButton!
+    @IBOutlet weak var checklistBox3: UIButton!
+    
+    @IBOutlet weak var toDoDescription1: UILabel!
+    @IBOutlet weak var toDoDescription2: UILabel!
+    @IBOutlet weak var toDoDescription3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //if else di sini nanti, if today ada misi, ishidden false, gitu2
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func backPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
-    */
-
+    
+    @IBAction func leftPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func rightPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func checklistBox1Pressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func checklistBox2Pressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func checklistBox3Pressed(_ sender: Any) {
+        
+    }
+    
 }

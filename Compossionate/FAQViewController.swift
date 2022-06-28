@@ -39,14 +39,15 @@ class FAQViewController: UIViewController {
         
     }
     
+    @IBAction func backPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func question1Pressed(_ sender: Any) {
         if question1Status == 0 { //masih ketutup, mau dibuka
             question1Lbl.setImage(UIImage(systemName: "chevron.down"), for: .normal)
             
             faqDesc1.isHidden = false
-            
-            //ubah constraint
-            
             
             question1Status = 1
         }

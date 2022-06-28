@@ -33,13 +33,14 @@ class GuiMod4ViewController: UIViewController {
         
     }
     
+    @IBAction func backPressed(_ sender: Any){
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func selectConditionPressed(_ sender: Any) {
-        UIView.animate(withDuration: 0.7) { [self] in
-            condition1Btn.isHidden = false
-            condition2Btn.isHidden = false
-            condition3Btn.isHidden = false
-            
-        }
+        condition1Btn.isHidden = false
+        condition2Btn.isHidden = false
+        condition3Btn.isHidden = false
     }
     
     @IBAction func condition1Pressed(_ sender: Any) {
@@ -49,8 +50,8 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
         
-        conditionImg.image = UIImage(named: "")
-        conditionLbl.text = ""
+        conditionImg.image = UIImage(named: "GM4DD1")
+        conditionLbl.text = "Let's add more water, MOL/EM4, or greens"
     }
     
     @IBAction func condition2Pressed(_ sender: Any) {
@@ -60,8 +61,8 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
         
-        conditionImg.image = UIImage(named: "")
-        conditionLbl.text = ""
+        conditionImg.image = UIImage(named: "GM4DD2")
+        conditionLbl.text = "Awesome! Let's move on to the next step"
     }
     
     @IBAction func condition3Pressed(_ sender: Any) {
@@ -71,8 +72,8 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
         
-        conditionImg.image = UIImage(named: "")
-        conditionLbl.text = ""
+        conditionImg.image = UIImage(named: "GM4DD3")
+        conditionLbl.text = "Let's add more brown material"
     }
     
 }

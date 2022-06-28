@@ -9,15 +9,22 @@
 /* Begin PBXBuildFile section */
 		392BC5972858835400A7BA0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392BC5962858835400A7BA0E /* AppDelegate.swift */; };
 		392BC5992858835400A7BA0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392BC5982858835400A7BA0E /* SceneDelegate.swift */; };
-		392BC59B2858835400A7BA0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392BC59A2858835400A7BA0E /* ViewController.swift */; };
+		392BC59B2858835400A7BA0E /* CompostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392BC59A2858835400A7BA0E /* CompostViewController.swift */; };
 		392BC59E2858835400A7BA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392BC59C2858835400A7BA0E /* Main.storyboard */; };
 		392BC5A02858835400A7BA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392BC59F2858835400A7BA0E /* Assets.xcassets */; };
 		392BC5A32858835400A7BA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392BC5A12858835400A7BA0E /* LaunchScreen.storyboard */; };
+		3977DC5F286AD3C300060108 /* GuiMod2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977DC5E286AD3C300060108 /* GuiMod2ViewController.swift */; };
+		3977DC61286AD4BC00060108 /* GuiMod3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977DC60286AD4BC00060108 /* GuiMod3ViewController.swift */; };
+		3977DC63286AD4C500060108 /* GuiMod5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977DC62286AD4C500060108 /* GuiMod5ViewController.swift */; };
 		398C414D286303C30053AFA5 /* CompostInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C414C286303C30053AFA5 /* CompostInfoViewController.swift */; };
 		398C414F2863041F0053AFA5 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398C414E2863041F0053AFA5 /* FAQViewController.swift */; };
 		398DBB1728606881002CFE70 /* GuiMod1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */; };
 		398DBB19286068A5002CFE70 /* GuiMod4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */; };
+		399E870E286AE2C1007FC327 /* AskQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E870D286AE2C1007FC327 /* AskQuestionViewController.swift */; };
 		39C968D7286456EE00FF4FB7 /* Compost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C968D5286456EE00FF4FB7 /* Compost.storyboard */; };
+		39D6C67C2869888E00E1749F /* BatchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6C67A2869888E00E1749F /* BatchCollectionViewCell.swift */; };
+		39D6C67D2869888E00E1749F /* BatchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D6C67B2869888E00E1749F /* BatchCollectionViewCell.xib */; };
+		39D6C67F2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6C67E2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift */; };
 		5975C2A22859ACC500246860 /* HowToController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975C2A12859ACC500246860 /* HowToController.swift */; };
 		59EEBA5D286456D3004DEE8D /* HowTo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EEBA5B286456D3004DEE8D /* HowTo.storyboard */; };
 		59EEBA602865A86E004DEE8D /* CommunityPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EEBA5E2865A86E004DEE8D /* CommunityPage.storyboard */; };
@@ -31,16 +38,23 @@
 		392BC5932858835400A7BA0E /* Compossionate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compossionate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392BC5962858835400A7BA0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		392BC5982858835400A7BA0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		392BC59A2858835400A7BA0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		392BC59A2858835400A7BA0E /* CompostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostViewController.swift; sourceTree = "<group>"; };
 		392BC59D2858835400A7BA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		392BC59F2858835400A7BA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		392BC5A22858835400A7BA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		392BC5A42858835400A7BA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3977DC5E286AD3C300060108 /* GuiMod2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod2ViewController.swift; sourceTree = "<group>"; };
+		3977DC60286AD4BC00060108 /* GuiMod3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod3ViewController.swift; sourceTree = "<group>"; };
+		3977DC62286AD4C500060108 /* GuiMod5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod5ViewController.swift; sourceTree = "<group>"; };
 		398C414C286303C30053AFA5 /* CompostInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostInfoViewController.swift; sourceTree = "<group>"; };
 		398C414E2863041F0053AFA5 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod1ViewController.swift; sourceTree = "<group>"; };
 		398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiMod4ViewController.swift; sourceTree = "<group>"; };
+		399E870D286AE2C1007FC327 /* AskQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestionViewController.swift; sourceTree = "<group>"; };
 		39C968D6286456EE00FF4FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Compossionate/Base.lproj/Compost.storyboard; sourceTree = "<group>"; };
+		39D6C67A2869888E00E1749F /* BatchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchCollectionViewCell.swift; sourceTree = "<group>"; };
+		39D6C67B2869888E00E1749F /* BatchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatchCollectionViewCell.xib; sourceTree = "<group>"; };
+		39D6C67E2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpGuiMod1ViewController.swift; sourceTree = "<group>"; };
 		5975C2A12859ACC500246860 /* HowToController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToController.swift; sourceTree = "<group>"; };
 		59EEBA5C286456D3004DEE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Compossionate/Base.lproj/HowTo.storyboard; sourceTree = "<group>"; };
 		59EEBA5F2865A86E004DEE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Compossionate/Base.lproj/CommunityPage.storyboard; sourceTree = "<group>"; };
@@ -85,10 +99,18 @@
 				392BC5982858835400A7BA0E /* SceneDelegate.swift */,
 				392BC59A2858835400A7BA0E /* ViewController.swift */,
 				59EEBA632865B0DB004DEE8D /* CommunityViewCell.swift */,
+				399E870D286AE2C1007FC327 /* AskQuestionViewController.swift */,
+				392BC59A2858835400A7BA0E /* CompostViewController.swift */,
+				398C414C286303C30053AFA5 /* CompostInfoViewController.swift */,
 				398C414E2863041F0053AFA5 /* FAQViewController.swift */,
 				398DBB1628606881002CFE70 /* GuiMod1ViewController.swift */,
+				3977DC5E286AD3C300060108 /* GuiMod2ViewController.swift */,
+				3977DC60286AD4BC00060108 /* GuiMod3ViewController.swift */,
 				398DBB18286068A5002CFE70 /* GuiMod4ViewController.swift */,
 				59EEBA5B286456D3004DEE8D /* HowTo.storyboard */,
+				3977DC62286AD4C500060108 /* GuiMod5ViewController.swift */,
+				5975C2A12859ACC500246860 /* HowToController.swift */,
+				39D6C67E2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift */,
 				392BC59C2858835400A7BA0E /* Main.storyboard */,
 				59EEBA5E2865A86E004DEE8D /* CommunityPage.storyboard */,
 				59EEBA682866D59E004DEE8D /* CommunityDetailController.swift */,
@@ -97,6 +119,8 @@
 				392BC59F2858835400A7BA0E /* Assets.xcassets */,
 				392BC5A12858835400A7BA0E /* LaunchScreen.storyboard */,
 				392BC5A42858835400A7BA0E /* Info.plist */,
+				39D6C67A2869888E00E1749F /* BatchCollectionViewCell.swift */,
+				39D6C67B2869888E00E1749F /* BatchCollectionViewCell.xib */,
 			);
 			path = Compossionate;
 			sourceTree = "<group>";
@@ -172,6 +196,7 @@
 				59EEBA602865A86E004DEE8D /* CommunityPage.storyboard in Resources */,
 				59EEBA5D286456D3004DEE8D /* HowTo.storyboard in Resources */,
 				392BC5A32858835400A7BA0E /* LaunchScreen.storyboard in Resources */,
+				39D6C67D2869888E00E1749F /* BatchCollectionViewCell.xib in Resources */,
 				392BC5A02858835400A7BA0E /* Assets.xcassets in Resources */,
 				39C968D7286456EE00FF4FB7 /* Compost.storyboard in Resources */,
 				392BC59E2858835400A7BA0E /* Main.storyboard in Resources */,
@@ -185,17 +210,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392BC59B2858835400A7BA0E /* ViewController.swift in Sources */,
+				392BC59B2858835400A7BA0E /* CompostViewController.swift in Sources */,
+				3977DC61286AD4BC00060108 /* GuiMod3ViewController.swift in Sources */,
 				5975C2A22859ACC500246860 /* HowToController.swift in Sources */,
 				59EEBA692866D59E004DEE8D /* CommunityDetailController.swift in Sources */,
 				59EEBA662865B955004DEE8D /* CommunityModel.swift in Sources */,
 				392BC5972858835400A7BA0E /* AppDelegate.swift in Sources */,
 				59EEBA622865A991004DEE8D /* CommunityController.swift in Sources */,
+				399E870E286AE2C1007FC327 /* AskQuestionViewController.swift in Sources */,
+				3977DC63286AD4C500060108 /* GuiMod5ViewController.swift in Sources */,
 				392BC5992858835400A7BA0E /* SceneDelegate.swift in Sources */,
 				398DBB19286068A5002CFE70 /* GuiMod4ViewController.swift in Sources */,
 				59EEBA642865B0DB004DEE8D /* CommunityViewCell.swift in Sources */,
 				398C414F2863041F0053AFA5 /* FAQViewController.swift in Sources */,
+				39D6C67C2869888E00E1749F /* BatchCollectionViewCell.swift in Sources */,
 				398C414D286303C30053AFA5 /* CompostInfoViewController.swift in Sources */,
+				39D6C67F2869ACFC00E1749F /* PopUpGuiMod1ViewController.swift in Sources */,
+				3977DC5F286AD3C300060108 /* GuiMod2ViewController.swift in Sources */,
 				398DBB1728606881002CFE70 /* GuiMod1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
