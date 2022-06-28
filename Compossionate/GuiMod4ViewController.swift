@@ -27,13 +27,13 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.layer.cornerRadius = condition2Btn.frame.height / 2
         condition3Btn.layer.cornerRadius = condition3Btn.frame.height / 2
         
-        
-        
         condition1Btn.isHidden = true
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
-        
-        
+    }
+    
+    @IBAction func backPressed(_ sender: Any){
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func selectConditionPressed(_ sender: Any) {
@@ -49,8 +49,8 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
         
-        conditionImg.image = UIImage(named: "")
-        conditionLbl.text = ""
+        conditionImg.image = UIImage(named: "GM4DD1")
+        conditionLbl.text = "Let's add more water, MOL/EM4, or greens"
     }
     
     @IBAction func condition2Pressed(_ sender: Any) {
@@ -60,8 +60,8 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
         
-        conditionImg.image = UIImage(named: "")
-        conditionLbl.text = ""
+        conditionImg.image = UIImage(named: "GM4DD2")
+        conditionLbl.text = "Awesome! Let's move on to the next step"
     }
     
     @IBAction func condition3Pressed(_ sender: Any) {
@@ -71,8 +71,8 @@ class GuiMod4ViewController: UIViewController {
         condition2Btn.isHidden = true
         condition3Btn.isHidden = true
         
-        conditionImg.image = UIImage(named: "")
-        conditionLbl.text = ""
+        conditionImg.image = UIImage(named: "GM4DD3")
+        conditionLbl.text = "Let's add more brown material"
     }
     
 }
