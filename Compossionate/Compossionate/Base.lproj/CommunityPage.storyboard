@@ -203,7 +203,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tuq-OT-VE2">
-                                <rect key="frame" x="90" y="771" width="234" height="31"/>
+                                <rect key="frame" x="130" y="668" width="154" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="phone.fill" catalog="system" title="  Make a Call">
                                     <backgroundConfiguration key="background" cornerRadius="20">
